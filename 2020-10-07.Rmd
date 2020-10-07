@@ -1,0 +1,88 @@
+---
+title: "課堂練習模版"
+author: "ambrosewang"
+date: "2020-10-07"
+output: output_format
+params:
+  id: "410973075"
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## Your code
+
+```{r}
+15 -> a
+15 -> b
+22 -> c
+c -> y
+myName <- "Mary"
+```
+```{r}
+vNum1 <- c(2,5)
+vNum2 <- c(2,5)
+```
+
+```{r}
+num1 <- 5
+num2 <- 5L
+  
+vNum1 <- vNum2
+vNum2 <- c(2, vNum1)
+```
+
+```{r}
+heightsOftheEntireClassroom <- c()
+
+```
+
+```{r}
+heightOfAStudentComingInsideTheClassroom <- sample(165:200,1)
+```
+```{r}
+heightsOftheEntireClassroom <- c(
+  heightsOftheEntireClassroom,
+  heightOfAStudentComingInsideTheClassroom
+)
+```
+```{r}
+c(5,7)
+c("John", "Mary")
+c(T,TRUE, F,FALSE)
+```
+```{r}
+object.size(num1)
+object.size(num2)
+```
+```{r}
+num1Vector<-c(5,6,7)
+num2Vector<-c(5L,6L,7L)
+```
+
+```{r}
+char1Vector<-c("你好","How are you?")
+
+```
+```{r}
+dl <- '小明說："明天不用上課。"'
+```
+```{r}
+d2 <- "小明說：\"明天不用上課。\""
+```
+
+```{r}
+dialogue <- c('小明說："明天不用上課。"',
+               '小花說："真的嗎？"')
+```
+```{r}
+dialogue
+cat(dialogue, sep="\n")
+writeLines(dialogue, "conversation.txt")
+```
+```{r}
+
+context <- "老師說換行要寫\\n" 
+cat(context)
+```
